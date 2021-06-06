@@ -120,7 +120,7 @@ h2  {
     margin-top: 50px;
 }
 
-.about p {
+.intro {
     margin: 30px 60px 30px 40px;
     display: inline;
     float: right;
@@ -138,7 +138,6 @@ h2  {
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
-    
      
 }
 
@@ -225,6 +224,7 @@ footer nav ul li {
     padding-right: 10px;
     
 }
+
 
 
 
