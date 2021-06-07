@@ -24,7 +24,7 @@ A portfolio is a set of pictures or photographs of someone's work, which they sh
 * CSS
 
 ## Website
-https://tomhabt.github.io/
+https://tomhabt.github.io/professional-portfolio/
 
 ## Contribution
 Made with ❤️ by [Thomas Habtemariam]
