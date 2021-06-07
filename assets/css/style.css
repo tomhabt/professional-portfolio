@@ -26,11 +26,12 @@ header h1 {
     background-color: #92CCCD;
     color: #31343D;
 }
+
 .name {
     color: #31343D;
     text-decoration: none;
-
 }
+
 header nav {
     font-size: 20px; 
     padding-top: 15px;
@@ -122,8 +123,8 @@ h2  {
 
 .about p {
     margin: 30px 60px 30px 40px;
-    display: inline;
-    float: right;
+    display: flex;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     text-align: justify;
@@ -137,9 +138,7 @@ h2  {
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
-    flex-wrap: wrap;
-    
-     
+    flex-wrap: wrap;   
 }
 
 .top-fig {
@@ -167,7 +166,7 @@ figcaption {
     bottom: 10;
     right: 10;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-    background-color: #92CCCD;
+    background-color: #699697;
     padding: 5px 10px 5px 15px;
     margin: -100px 0px 0px 0px;
     position: absolute;
@@ -225,6 +224,30 @@ footer nav ul li {
     padding-right: 10px;
     
 }
+/* Footer Style starts here */
 
+/* Flexbox starts here */
+.flex-row {
+    display: flexbox;
+}
 
+/* Mediaquery starts here */
 
+@media screen and (max-width: 768px) {
+.section-title  {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: white;
+    display: flex;
+}
+}
+
+@media screen and (min-width: 1400px) {
+    footer nav {
+        font-size: 30px; 
+}    
+    .about p  {
+        font-size: 40px;
+}
+}
+/* Mediaquery Ends here */
